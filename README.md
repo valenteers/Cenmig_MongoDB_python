@@ -1,7 +1,7 @@
 # cenmigDB
 This program is using for interact with the cenmigDB
 
-**usage: python3 main.py [-h]**
+**usage: python3 main.py [func]**
            
 This program is using for interact with the CenmigDB via command-line \
 For creating new collection or DB of MongoDB please use mongoimport 
@@ -22,5 +22,4 @@ For creating new collection or DB of MongoDB please use mongoimport
     get_file            Copy file SRA and fasta to user with Run and asm_acc from csv
     store_seqfile       Moving file to storage location based on spp. and filetype
 </pre>
-optional arguments:
-  -h, --help            show this help message and exit
+
