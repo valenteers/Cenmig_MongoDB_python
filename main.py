@@ -8,32 +8,34 @@ Created on Tue Nov  9 09:09:33 2021
 # =============================================================================
 # Module 
 # =============================================================================
-import setting
+
+from cenmigDB.import_modules import *
+
+# import setting
 
 
-from metadata_create import prepare_metadata,tsv_to_csv,create_metadata_ncbi,create_metadata_submit
+# from metadata_create import prepare_metadata,tsv_to_csv,create_metadata_ncbi,create_metadata_submit
 
-from search import searchDB
+# from search import searchDB
 
-from download import download_from_ncbi,convert_sra_to_fastq_gunzip,unzip_fa
+# from download import download_from_ncbi,convert_sra_to_fastq_gunzip,unzip_fa
 
-from store_file import store_fileDB
+# from store_file import store_fileDB
 
-from save_file import save_data_csv,save_data_query
+# from save_file import save_data_csv,save_data_query
 
-from update import update_field,replace_record
+# from update import update_field,replace_record
 
-from delete import del_records_by_csv,del_records_by_query
+# from delete import del_records_by_csv,del_records_by_query
 
-from backup import backup_all 
-
+# from backup import backup_all 
 
 # =============================================================================
 # Package
 # =============================================================================
-import argparse
-import glob2
-import os
+# import argparse
+# import glob2
+# import os
 
 # =============================================================================
 #  Args section
