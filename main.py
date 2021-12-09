@@ -7,8 +7,8 @@ Created on Tue Nov  9 09:09:33 2021
 
 import os, sys
 currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.join(currentdir, "cenmigDB")
-sys.path.append(parentdir)
+packagesdir = os.path.join(currentdir, "cenmigDB")
+sys.path.append(packagesdir)
 
 
 # =============================================================================
