@@ -15,8 +15,7 @@ index_column = 'cenmigID' #คอลัมภ์ที่เป็น unique ส
 import os, sys
 # main = '/data/home/tiravut.per/cenmigDB/'
 #main = '/data/home/chaivut.ton/NAScenmig/cenmigDB/cenmigDB/cenmigDB/'
-currentDir = os.path.dirname(os.path.realpath(__file__))
-main = currentDir + '/'
+main = os.path.dirname(os.path.realpath(__file__)) + '/'
 path = ''
 
 file_no_duplicate_with_database = 'no_duplicate_with_database.csv' #ชื่อไฟล์สำหรับฟังก์ชั่นที่ไว้ใช้เช็คไฟล์
