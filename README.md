@@ -14,6 +14,7 @@ positional arguments:
     search              Query metadata based on keyword in txt file or export all metadata
     export_sequences    Copy sequence files based on csv file shopping list
     summarize_data      Summarize data and export result to csv and png
+    setup_db            Set up folder and required python library
 
 optional arguments:
   -h, --help            show this help message and exit
