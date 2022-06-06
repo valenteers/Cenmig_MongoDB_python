@@ -29,5 +29,3 @@ def install():
     print('''\ncenmigDB also use MongoDB, stringMLST.py, Resfinder, SeqSero2, sangerpathogens/mlst_check get_sequence_type(docker) and pysradb. \nPlease install these programmes manually, However also please check program path in analyze_SEA_data.py\n''')
 
 
-
-install()
