@@ -3,7 +3,7 @@ This program is using for interact with the cenmigDB
 
 usage: CENMIGDB_run.py [-h] {make_db,update_db,search,export_sequences,summarize_data} ...
 
-This program is using for interact with the CenmigDB via command-line for creating new collection or DB of MongoDB
+This program is using for interact with the CenmigDB via command-line. For creating new collection or DB of MongoDB
 please use mongoimport
 
 <pre>
