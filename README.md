@@ -6,6 +6,7 @@ usage: CENMIGDB_run.py [-h] {make_db,update_db,search,export_sequences,summarize
 This program is using for interact with the CenmigDB via command-line for creating new collection or DB of MongoDB
 please use mongoimport
 
+<pre>
 positional arguments:
   {make_db,update_db,search,export_sequences,summarize_data}
     make_db             Download, Reformat, and Update to MongoDB
