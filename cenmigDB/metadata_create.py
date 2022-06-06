@@ -956,6 +956,7 @@ def retrive_id_from_database():
 def cenmigID_assigner(df):
     df_cenmig = df[['Run', 'asm_acc', 'Sample_Name', 'Center_Name']]
     df_cenmig['Inhouse'] = df_cenmig['Sample_Name'] + '@' + df_cenmig['Center_Name'] + '@Submitdate' + datetime.date.today().strftime('%d%m%Y')
+    df_cenmig['Inhouse'] = df_cenmig['Inhouse'].str.replace('_', '')
     df_cenmig = df_cenmig[['Run', 'asm_acc', 'Inhouse']]
     df_cenmig.fillna('REMOVE', inplace=True)
     ## Retrive index from different criteria
