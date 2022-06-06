@@ -1,8 +1,0 @@
-[
- 	{'$match': 
-		{ '$and' : [
-					{ 'sub_region'	: 'South-eastern Asia' },
-					{ 'Organism'	: { '$regex' : 'Staphylococcus aureus.*'} }	 
-					] }
-	}
-]
