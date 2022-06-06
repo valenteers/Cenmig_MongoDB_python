@@ -1,0 +1,4 @@
+### Must download MLST file before with this cmd
+### Can't Download with Fucking Mahidol internet due to firewwall BLOCKING
+
+stringMLST.py --getMLST -P . --species all
