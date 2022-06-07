@@ -119,7 +119,7 @@ resfinder_db = main + 'resfinder_db/'
 
 #------------------------------------ Setup -------------------------------------------------#
 package_required = ['pandas', 'numpy', 'glob2', 
-                    'pymongo','pycountry', 'argparse', 'stringMLST']
+                    'pymongo','pycountry', 'argparse', 'stringMLST', 'pysradb']
 
 folder_list = [data_sequences, dataport, backup_metadata_path, query_result_path, metadata]
 
